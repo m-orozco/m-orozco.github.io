@@ -21,7 +21,7 @@ Designed and simulated analog circuits using LTspice and PCB layout tools.
 ---
 
 ## 📄 Resume
-[Download Resume](resume.pdf)
+[Download Resume](Resume.pdf)
 
 ---
 
