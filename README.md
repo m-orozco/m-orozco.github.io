@@ -26,6 +26,6 @@ Designed and simulated analog circuits using LTspice and PCB layout tools.
 ---
 
 ## 📫 Contact
-Email: your@email.com  
-LinkedIn: https://linkedin.com/in/yourprofile  
-GitHub: https://github.com/yourusername
+Email: morozc91@gmail.com  
+LinkedIn: https://linkedin.com/in/martin-orozco-jr/  
+GitHub: https://github.com/m-orozco
