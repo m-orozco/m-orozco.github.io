@@ -3,7 +3,7 @@
 Electrical Engineering Student at San José State University  
 Interested in power electronics, embedded systems, and robotics.
 
-📍 Bay Area, CA  
+📍 Santa Clara, CA  
 
 ---
 
