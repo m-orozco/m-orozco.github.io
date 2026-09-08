@@ -25,11 +25,11 @@
     <section class="hero">
       <div class="hero-left">
         <p class="kicker">Electrical Engineering Student • SJSU • Bay Area</p>
-        <h1>Building practical hardware + systems.</h1>
-        <p class="subhead">
-          Interested in power electronics, embedded systems, robotics, FPGA/Verilog, and DSP.
-          I like measurable results: waveforms, efficiency, timing closure, and clean bring-up.
-        </p>
+        <h1>Designing and verifying digital hardware.</h1>
+          <p class="subhead">
+              Focused on RTL design and functional verification — Verilog/SystemVerilog, self-checking
+              testbenches, and FPGA validation — with a secondary interest in embedded hardware and PCB design.
+          </p>
 
         <div class="cta">
           <a class="btn primary" href="Resume.pdf" target="_blank" rel="noopener">View Resume</a>
@@ -38,22 +38,23 @@
           <a class="btn ghost" href="mailto:morozc91@gmail.com">Email</a>
         </div>
 
-        <div class="chips">
-          <span class="chip">Verilog / Vivado</span>
-          <span class="chip">MATLAB</span>
-          <span class="chip">LTspice</span>
-          <span class="chip">PCB Design</span>
-          <span class="chip">C++ / Python</span>
-        </div>
+       <div class="chips">
+          <span class="chip">Verilog</span>
+           <span class="chip">Icarus Verilog / GTKWave</span>
+             <span class="chip">Functional Verification</span>
+            <span class="chip">LTspice</span>
+           <span class="chip">Altium / KiCad</span>
+         <span class="chip">C++ / Python</span>
+       </div>
       </div>
 
       <div class="hero-right">
         <div class="card highlight">
           <h3>Now</h3>
           <ul>
-            <li>Building internship-ready project pages</li>
-            <li>Improving FPGA + digital design skills</li>
-            <li>Documenting labs with clear results + screenshots</li>
+            <li>Building a RISC-V RV32I pipelined CPU (chip-design-portfolio)</li>
+            <li>Writing self-checking testbenches in Verilog</li>
+            <li>Applying to Summer 2027 RTL/DV and embedded hardware internships</li>
           </ul>
         </div>
       </div>
@@ -62,47 +63,46 @@
     <section id="projects" class="section">
       <div class="section-head">
         <h2>Projects</h2>
-        <p>3–6 strong projects beats 20 weak ones. Keep it measurable.</p>
+        <p>RTL design and verification work — Verilog, self-checking testbenches, FPGA validation.</p>
       </div>
 
       <div class="grid">
         <article class="card">
           <div class="card-top">
-            <h3>FPGA Logic Design (Vivado)</h3>
-            <span class="tag">Verilog • Simulation • Artix-7</span>
+            <h3>Synchronous FIFO Buffer</h3>
+            <span class="tag">Verilog • Icarus Verilog • GTKWave</span>
           </div>
           <p>
-            Designed and simulated combinational logic in Verilog. Verified behavior in Vivado waveform viewer and
-            validated outputs against the truth table and intended Boolean logic.
+            Parameterizable synchronous FIFO using an extra-MSB read/write pointer scheme to disambiguate
+            full vs. empty without a separate counter. Self-checking testbench validates data integrity,
+            overflow/underflow guarding, and write/read order — all assertions passing.
           </p>
           <ul class="bullets">
-            <li>Deliverable: waveform evidence + schematic/RTL</li>
-            <li>Skills: testbench stimulus, timing, verification mindset</li>
+            <li>Deliverable: waveform evidence + self-checking testbench</li>
+            <li>Skills: RTL design, functional verification, waveform debug</li>
           </ul>
           <div class="actions">
-            <a class="link" href="https://github.com/m-orozco" target="_blank" rel="noopener">Code</a>
-            <span class="dot">•</span>
-            <a class="link" href="#" title="Optional: add a PDF/report later">Report (optional)</a>
+            <a class="link" href="https://github.com/m-orozco/chip-design-portfolio/tree/main/01-fifo" target="_blank" rel="noopener">Code</a>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card-top">
-            <h3>DSP Labs (MATLAB)</h3>
-            <span class="tag">Convolution • LTI Systems • Filtering</span>
-          </div>
+       <article class="card">
+        <div class="card-top">
+          <h3>FPGA RTL Digital Arithmetic Modules</h3>
+          <span class="tag">Verilog • Vivado • Nexys A7</span>
+        </div>
           <p>
-            Implemented discrete-time systems and convolution in MATLAB to analyze output signals and filter behavior.
-            Focused on correctness and interpretation (causality, stability, time invariance).
+            Implemented and verified a majority logic unit, 1-bit full adder, and hierarchical 4-bit
+            ripple-carry adder. Validated via simulation and on-hardware FPGA testing.
           </p>
-          <ul class="bullets">
-            <li>Deliverable: plots/stem plots + explanation</li>
-            <li>Skills: signal reasoning, system properties, debugging</li>
-          </ul>
-          <div class="actions">
-            <a class="link" href="https://github.com/m-orozco" target="_blank" rel="noopener">Code</a>
-          </div>
-        </article>
+         <ul class="bullets">
+           <li>Deliverable: simulation + on-hardware FPGA validation</li>
+           <li>Skills: hierarchical RTL design, testbench stimulus</li>
+         </ul>
+         <div class="actions">
+           <a class="link" href="https://github.com/m-orozco/chip-design-portfolio" target="_blank" rel="noopener">Code</a>
+         </div>
+       </article>
 
         <article class="card">
           <div class="card-top">
@@ -151,9 +151,9 @@
       </div>
       <div class="card">
         <p>
-          I’m an EE student at San José State University focused on hardware and practical engineering.
-          I enjoy building things that can be tested and proven—whether that’s FPGA logic, DSP scripts,
-          or circuits that behave exactly like the theory predicts.
+          I'm an EE student at San José State University pursuing RTL design and functional verification
+          roles. I've designed and verified Verilog RTL with self-checking testbenches and FPGA validation,
+          and I work on sensor/harness integration for SJSU's Formula SAE team.
         </p>
       </div>
     </section>
